@@ -2,7 +2,7 @@
   "name": "paradise-plant-store",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://amoncada0216.github.io/paradise-plant-store",
+  "homepage": "https://amoncada0216.github.io/Paradise-Plant-Store/",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.11.1",
