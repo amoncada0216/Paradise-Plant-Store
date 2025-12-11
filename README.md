@@ -6,7 +6,7 @@ This is a small e-commerce web application built with **React** and **Redux**. I
 
 ## GitHub Repository
 
-**Public URL:** [Insert your GitHub repo URL here]
+**Public URL:** https://github.com/amoncada0216/Paradise-Plant-Store
 
 ---
 
