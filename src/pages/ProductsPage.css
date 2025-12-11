@@ -1,0 +1,80 @@
+* {
+    --paradise-green: rgb(76, 107, 22);
+    --paradise-green-hover: #6c9722;
+    --soft-black: #363636;
+    --bg-color: #e9f5ec;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+    color: var(--soft-black);
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 150px;
+}
+
+.category h2 {
+    padding: 20px 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.grid-item {
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px #0000005b;
+}
+
+.grid-item img {
+    height: 400px;
+    width: 250px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px 0 0 20px;
+}
+
+.grid-item-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 60px 20px;
+    background-color: white;
+    border-radius: 0 20px 20px 0;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.grid-item-content p:first-of-type {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.add-to-cart-btn {
+    width: 160px;
+    align-self: center;
+    padding: 15px 30px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 1rem;
+    color: white;
+    background-color: var(--paradise-green);
+    box-shadow: 0 2px 8px #00000026;
+     cursor: pointer;
+}
+
+.add-to-cart-btn:hover {
+    background-color: var(--paradise-green-hover);
+}
+
+.add-to-cart-btn.in-cart {
+  background-color: #ccc;   
+  color: #666;
+  cursor: not-allowed;     
+}
